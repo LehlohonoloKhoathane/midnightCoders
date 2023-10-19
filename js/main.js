@@ -56,7 +56,7 @@ $(document).ready(function(){
 })(jQuery);
 
 function opeWindowPopup(){
-    window.open('game.html', 'Game Window', 'width=600,height=400');
+    window.open('http://localhost:5000', 'Game Window', 'width=600,height=400');
 }
 
 $(window).scroll(function () {
