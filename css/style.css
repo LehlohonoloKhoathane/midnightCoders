@@ -509,6 +509,9 @@ body{
     font-weight: 700;
     margin-bottom: 10px;
 }
+#chat-link{
+    cursor: pointer;
+}
 
 .testimonials .testimonial-text h4 {
     font-size: 12px;
