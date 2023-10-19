@@ -55,9 +55,9 @@ $(document).ready(function(){
     
 })(jQuery);
 
-function opeWindowPopup(){
-    window.open('http://localhost:5000', 'Game Window', 'width=600,height=400');
-}
+//function opeWindowPopup(){
+//    window.open('http://localhost:5000', 'Chat Window', 'width=600,height=400');
+//}
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
