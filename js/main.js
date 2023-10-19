@@ -55,6 +55,10 @@ $(document).ready(function(){
     
 })(jQuery);
 
+function opeWindowPopup(){
+    window.open('game.html', 'Game Window', 'width=600,height=400');
+}
+
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $('.back-to-top').fadeIn('slow');
